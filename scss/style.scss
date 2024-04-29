@@ -9,7 +9,10 @@ body {
   font-style: normal;
 
   @media (max-width: $breakpoint--desktop) {
-    color: rgb(199 )
+    color: #0303031;
+  }
+  @media (max-width: $breakpoint--tablet) {
+    color: #030303;
   }
   }
 }

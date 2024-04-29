@@ -1,0 +1,20 @@
+// general breakpoints
+$breakpoint--Phone: 400px;
+$breakpoint--Desktop: 1024px;
+$breakpoint--Tablet: 768px;
+
+// breakpoints (Phone)
+$breakpoint--Phone: 613px;
+$breakpoint--Phone2: 655px;
+
+// breakpoints (Desktop)
+$breakpoint--Desktop: 1375px;
+
+// breakpoints (Tablet)
+$breakpoint--Tablet: 815px;
+
+
+// grind-related variables
+$grid-column: 60px;
+$grid-gutter: calc($grid-column / 3);
+$grid-unit: calc($grid-column + $grid-gutter);

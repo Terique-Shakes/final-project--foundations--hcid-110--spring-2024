@@ -1,2 +1,15 @@
 @use 'variables' as *;
 @use 'reset' as *;
+body {
+  main {
+    color: aqua
+    font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300; <weight>;
+  font-style: normal;
+
+  @media (max-width: $breakpoint--desktop) {
+    color: rgb(199 )
+  }
+  }
+}
